@@ -1,0 +1,29 @@
+
+
+  body{
+    background-image: url("/Assets/images/book_animated.gif");
+    background-size: cover;
+    align-items : center;
+    flex: 1;
+    overflow: auto;
+     
+    padding-bottom: 70px;
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+     opacity: 2.0;
+
+   
+}
+
+.darkText{
+  color : white!important;
+}
+
